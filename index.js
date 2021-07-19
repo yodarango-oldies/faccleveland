@@ -13,8 +13,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/public'));
 
 // routes
-const public = require('./src/routes/public-main');
-app.use('/', public);
+app.use('/', require('./src/routes/public-main'));
 
 
 
