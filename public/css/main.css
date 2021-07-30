@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 /*
 	Helios by HTML5 UP
@@ -1911,7 +1912,6 @@ input, select, textarea {
 
 	ul.icons {
 		position: relative;
-		background: rgba(128, 128, 128, 0.05);
 		border-radius: 4em;
 		display: inline-block;
 		padding: 0.35em 0.75em 0.35em 0.75em;
@@ -2181,7 +2181,7 @@ input, select, textarea {
 		position: relative;
 		background-image: url("../../images/cleveland-16.jpg");
 		background-size: cover;
-		background-position: center left;
+		background-position: center;
 		background-attachment: fixed;
 		color: #fff;
 		text-align: center;
@@ -3223,7 +3223,7 @@ background-image: url("../images/cleveland-10.jpg");
 	height: 5rem;
 	width: 5rem;
 	margin: 0 auto 2rem;
-	background-image: url("../images/facc.png");
+	background-image: url("../images/FACCLogo2.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -3587,4 +3587,42 @@ margin: 0 auto 2rem;
 	text-align: right;
 	margin: 0 auto 1rem;
 	cursor: pointer;
+}
+#salute{
+	font-size: 2rem;
+	font-family: 'EB Garamond', serif !important;
+}
+#you-belong-here{
+font-size: 1.4rem !important;
+}
+
+#we-belief, #we-belief-main{
+color: #023e8a;
+	font-size: 1.5rem;
+	font-family: 'EB Garamond', serif !important;
+	margin: 2.5rem auto;
+	width: 90%;
+	text-align: center;
+}
+
+#we-belief-main{
+	font-size: 4rem;
+}
+
+#ma-icon{
+background-image: url("../images/maLogo.png");
+background-repeat: no-repeat;
+background-size: 100%;
+background-position: center;
+line-height: inherit;
+margin-bottom: -1rem;
+}
+
+@media only screen and (min-width: 700px) {
+	#salute{
+	font-size: 4rem;
+}
+#you-belong-here{
+font-size: 2.5rem !important;
+}
 }

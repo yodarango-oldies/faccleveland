@@ -9,7 +9,4 @@ router.get('/beliefs', (req, res)=>{
     res.render('beliefs');
 })
 
-router.get('/give', (req, res)=>{
-    res.render('give');
-})
 module.exports = router
